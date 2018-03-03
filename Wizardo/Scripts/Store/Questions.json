@@ -1,0 +1,32 @@
+﻿{
+  "questions": [
+    {
+      "title": "Mood",
+      "text": "How are you?",
+      "type": "dd",
+      "options": [ "Good", "OK", "Great" ],
+      "required":  false
+    },
+    {
+      "title": "Age",
+      "text": "How old are you?",
+      "type": "tb",
+      "options": [],
+      "required":  true
+    },
+    {
+      "title": "Hobbies",
+      "text": "Select your hobbies",
+      "type": "cb",
+      "options": [ "Sports", "Painting", "Fishing" ],
+      "required":  false
+    },
+    {
+      "title": "Preference",
+      "text": "Select one",
+      "type": "rb",
+      "options": [ "money", "love", "hapiness", "fame" ],
+      "required":  true
+    }
+  ]
+}
